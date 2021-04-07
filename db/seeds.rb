@@ -14,7 +14,7 @@ Restaurant2 = { name: "mcdonald", address: "24 rue du pont", star: "0"}
 Restaurant3 = { name: "chez Wung", address: "24 rue du pont", star: "3"}
 Restaurant4 = { name: "ritz", address: "24 rue du pont", star: "4"}
 Restaurant5 = { name: "kfc", address: "24 rue du pont", star: "1"}
-Restaurants []
+Restaurants = []
 [ Restaurant1, Restaurant2, Restaurant3, Restaurant4, Restaurant5].each_with_index do |attributes, index|
  restaurant = Restaurant.create!(attributes)
  Restaurants << restaurant
